@@ -39,7 +39,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="45dp"
-        android:text="@string/B" />
+        android:text="@string/compare" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -84,5 +84,15 @@
         android:textColor="#FF8F00"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="41dp"
+        android:text="@string/cancer" />
 
 </RelativeLayout>
