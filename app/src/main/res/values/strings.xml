@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandomApp</string>
+    <string name="texte_entre">Entre un nombre entr 1 et 100 :</string>
+    <string name="B">Button</string>
+    <string name="grande">entrer une plus grande valeur</string>
+    <string name="petite">entre une valeur plus petite</string>
+    <string name="cong">felicitation</string>
+    <string name="mesage">Felicitation vous avez trouvez %d coups</string>
+</resources>

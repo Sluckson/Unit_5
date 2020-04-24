@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/texte_entre"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="474dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnCompare"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumber"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/B" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="445dp"
+        android:layout_height="47dp"
+        android:layout_above="@+id/lblOutput"
+        android:layout_below="@+id/lblResult"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="65dp"
+        android:max="10"
+        android:progress="5"
+        android:progressTint="#0277BD" />
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="542dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/btnCompare"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="37dp"
+        android:textAlignment="center"
+        android:textColor="#D84315"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/lblOutput"
+        android:layout_width="548dp"
+        android:layout_height="156dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="22dp"
+        android:textAlignment="center"
+        android:textColor="#FF8F00"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
