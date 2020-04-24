@@ -85,6 +85,22 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
+
+
+    <TextView
+        android:id="@+id/lblinput"
+        android:layout_width="548dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="22dp"
+        android:textAlignment="center"
+        android:textColor="#FF8F00"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
     <Button
         android:id="@+id/btnCancer"
         android:layout_width="wrap_content"
